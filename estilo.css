@@ -1,0 +1,108 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+
+
+div.principal{
+    width: 1340px;
+    height: 900px;
+    /* background-image: url("/Semana4/Proyecto_Kata1/net_flix_mx.jpg"); */
+    background-image: url("net_flix_mx.jpg");
+    background-repeat: no-repeat;
+    background-size: 1340px 900px;
+}
+
+.logo{
+    height: 100px;
+    width: 240px;
+    vertical-align: middle;
+}
+.contenido{
+    width: 410px;  
+    height: 500px;
+    padding: 10px 18px 5px;
+    margin-bottom: 90px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-left: 380px;
+}
+h1{
+    color: white;
+    margin-left: 35px;
+}
+.entrada1{
+    margin-left: 35px;
+    height: 32px;
+    width: 290px;
+    background-color: rgba(47, 79, 79, 0.237);
+    color: white;
+    
+}
+.entrada2{
+    margin-left: 35px;
+    margin-top: 5px;
+    height: 32px;
+    width: 290px;
+    background-color: rgba(47, 79, 79, 0.237);
+    color: white;
+}
+.boton{
+    margin-left: 35px;
+    margin-top: 8px;
+    height: 40px;
+    width: 300px;
+    background-color: red;
+    color: white;
+
+}
+.chk1{
+    /* margin-left: 45px; */
+    margin: 1px 3px 3px 35px;
+    background: #737373;
+    height: 16px;
+    width: 16px;
+}
+.lbl1{
+    color: #b3b3b3;
+    font-size: 13px;
+}
+.ayuda{
+    color: #b3b3b3;
+    font-size: 13px;
+    margin-left: 106px;
+}
+.parrafo1{
+    margin-left: 35px;
+    color: #737373;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 40px;    
+    display:inline-block
+}
+.suscribete{
+    color: #b3b3b3;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.parrafo2{
+    margin-left: 35px;
+    margin-bottom: 0;
+    color: #737373;
+    font-size: 14px;
+    font-weight: 500;
+}
+.parrafo3{
+    margin-top: 0;
+    margin-left: 35px;
+    color: #737373;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+}
+.masinf{
+    color: blue;
+}
